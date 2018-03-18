@@ -10,7 +10,7 @@
 
             if(strlen($sign) < 4) {
             
-                $this->hokkuspokkus = "<p>Something went wrong</p>";
+                $this->hokkuspokkus = "<p>Wrong number</p>";
             
             } else if($sign >= '0101' && $sign <= '0615'){  
             
@@ -22,7 +22,7 @@
             
             } else {
               
-                $this->hokkuspokkus = "<p>Something went wrong, please try again</p>";
+                $this->hokkuspokkus = "<p>Wrong number</p>";
             
             }
         }
