@@ -1,4 +1,4 @@
 # Rest-API---Horoskop
 Inlämningsuppgift 1 i PHP
 
-Demo: coming soon..
+Link to demo: http://joelmaneskold.wieg17.se/Horoskop/
