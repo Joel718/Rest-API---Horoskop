@@ -12,15 +12,57 @@
             
                 $this->hokkuspokkus = "<p>Wrong number</p>";
             
-            } else if($sign >= '0101' && $sign <= '0615'){  
+            } else if($sign >= '0120' && $sign <= '0218'){  
             
-                $this->hokkuspokkus = "<p>You are scorpion</p>";
+                $this->hokkuspokkus = "<p>Your horoscope is <b>♒︎ Vattumannen ♒</b></p>";
             
-            } else if($sign >= '0616' && $sign <= '1231'){  
+            } else if($sign >= '0219' && $sign <= '0320') {
               
-                $this->hokkuspokkus = "<p>Your sign is jungfru</p>";
+                $this->hokkuspokkus = "<p>Your horoscope is <b>Fiskarna</b></p>";
+                
+            } else if($sign >= '0321' && $sign <= '0419') {
+                
+                  $this->hokkuspokkus = "<p>Your horoscope is <b>Väduren</b></p>";
+                  
+              } else if($sign >= '0420' && $sign <= '0520') {
+                
+                  $this->hokkuspokkus = "<p>Your horoscope is <b>Oxen</b></p>";
+                  
+              } else if($sign >= '0521' && $sign <= '0621') {
+                
+                  $this->hokkuspokkus = "<p>Your horoscope is <b>Tvillingarna</b></p>";
+                  
+              } else if($sign >= '0622' && $sign <= '0722'){  
+              
+                $this->hokkuspokkus = "<p>Your horoscope is <b>♍︎ Kräftan ♍︎</b></p>";
             
-            } else {
+            } else if($sign >= '0723' && $sign <= '0822') {
+                
+                  $this->hokkuspokkus = "<p>Your horoscope is <b>Lejonet</b></p>";
+                  
+              } else if($sign >= '0823' && $sign <= '0922') {
+                
+                  $this->hokkuspokkus = "<p>Your horoscope is <b>Jungfrun</b></p>";
+                  
+              } else if($sign >= '0923' && $sign <= '1022') {
+                
+                  $this->hokkuspokkus = "<p>Your horoscope is <b>Vågen</b></p>";
+                  
+              } else if($sign >= '1023' && $sign <= '1121') {
+                
+                  $this->hokkuspokkus = "<p>Your horoscope is <b>Skorpionen</b></p>";
+                  
+              } else if($sign >= '1122' && $sign <= '1221') {
+                
+                  $this->hokkuspokkus = "<p>Your horoscope is <b>Skytten</b></p>";
+                  
+              } else if($sign >= '1222' && $sign <= '0119') {
+                
+                  $this->hokkuspokkus = "<p>Your horoscope is <b>Stenbocken</b></p>";
+                  
+              }
+
+            else {
               
                 $this->hokkuspokkus = "<p>Wrong number</p>";
             
